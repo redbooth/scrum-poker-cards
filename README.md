@@ -25,7 +25,7 @@ Here is what each card means:
 - Ping Pong - Coffee break card
 
 **Special** cards:
-- Brownie. This is our own literal translation of the word Marrón in Spanish. Basically this means when you’re stuck with a difficult or unpleasant task. This card doesn’t really apply to standard planning poker. But hey, it’s more fun this way :)
+- Brownie. This is our own literal translation of the word Marrón in Spanish. Basically this means that you’re stuck with a difficult or unpleasant task. This card doesn’t really apply to standard planning poker. But hey, it’s more fun this way :)
 
 - [Yak shaving](http://www.hanselman.com/blog/YakShavingDefinedIllGetThatDoneAsSoonAsIShaveThisYak.aspx). Because, you know, it happens to the best of us.
 
