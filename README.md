@@ -5,6 +5,8 @@ At Redbooth we have many fun traditions like Elegant Wednesday, home made lunche
 We also use [scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29). To make the planning of a sprint more fun, we created our own personalised planning poker cards.
 Some of them are based on Spanglish (Spanish and English) and inside jokes that we have going around the office but the main idea is based on idioms.
 
+![](https://raw.githubusercontent.com/redbooth/Scrum-poker-cards/master/Images/redbooth%20cards%20-%20cover.jpg)
+
 Here is what each card means:
 
 1 - Low hanging fruit
