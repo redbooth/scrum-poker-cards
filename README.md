@@ -37,5 +37,5 @@ More about: [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%2
 
 Font used in the cards - [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab).
 
-License: [MIT](http://en.wikipedia.org/wiki/MIT_License). 
-Enjoy! And don’t forget to let us know if you add any cards of your own, we’d love to see what are your special cards.
+License: [Creative Commons – Attribution (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/). 
+Enjoy these! Don't forget to attribute and let us know if you add any cards of your own. We’d love to see what your special cards are.
