@@ -35,7 +35,7 @@ Here is what each card means:
 
 More about: [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29) and [Redbooth](https://redbooth.com/). 
 
-Font used in the cards - [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab).
+Font used in the cards - [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab). We ordered our decks at [moo.com](http://uk.moo.com/).
 
 License: [Creative Commons – Attribution (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/). 
 Enjoy these! Don't forget to attribute and let us know if you add any cards of your own. We’d love to see what your special cards are.
