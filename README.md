@@ -35,4 +35,6 @@ Here is what each card means:
 
 More about: [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29) and [Redbooth](https://redbooth.com/). 
 
+Font used in the cards - [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab).
+
 License: [MIT](http://en.wikipedia.org/wiki/MIT_License). Enjoy! And let us know if you add any cards of your own, we’d love to see what are your special cards.
