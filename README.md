@@ -9,6 +9,8 @@ The main idea is that each card has an idiom represented that goes with the numb
 
 ![](https://raw.githubusercontent.com/redbooth/Scrum-poker-cards/master/Images/redbooth%20cards%20-%20cover.jpg)
 
+![](https://raw.githubusercontent.com/redbooth/Scrum-poker-cards/master/Images/all.jpg)
+
 Here is what each card means:
 
 - 1 - Low hanging fruit
