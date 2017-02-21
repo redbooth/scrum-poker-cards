@@ -1,0 +1,107 @@
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+    <style>
+#page {
+  width: 300px;
+  margin: auto;
+}
+
+.flip {
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.flip img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.flip .back {
+  background: white;
+  text-align: center;
+}
+
+#list {
+  z-index: 99;
+  display: block;
+  margin: auto;
+  background-color: white;
+  position: absolute;
+}
+
+#list img {
+  width: 100px;
+  border-radius: 15px;
+}
+    </style>
+</head>
+
+<body>
+<script>
+$(function(){
+	$(".flip").flip({
+		trigger: 'click'
+	});
+
+  $(".flip").on("flip:done", function() {
+    if (! $(".flip").data("flip-model").isFlipped) {
+      $('#list').show();
+    }
+  });
+
+	$("#list img").click(function(e) {
+    $('.flip .back img').attr("src", e.currentTarget.src);
+		$('#list').hide();
+  });
+});
+</script>
+<div id="page">
+	<div id="list">
+		<table>
+			<tr>
+        <td><img src="png/Cover - option 2.png" /></td>
+        <td><img src="png/planning poker_Low hanging fruit.png" /></td>
+        <td><img src="png/planning poker_Piece of cake.png" /></td>
+      </tr>
+			<tr>
+        <td><img src="png/planning poker_It ain't rocket science.png" /></td>
+        <td><img src="png/planning poker-03.png" /></td>
+        <td><img src="png/planning poker_An arm and a leg.png" /></td>
+      </tr>
+			<tr>
+        <td><img src="png/planning poker_Squeaking by.png" /></td>
+        <td><img src="png/planning poker_Don't put all .png" /></td>
+        <td><img src="png/planning poker_Meterse en un berenjenal.png" /></td>
+      </tr>
+			<tr>
+        <td><img src="png/planning poker_Monster task.png" /></td>
+        <td><img src="png/planning poker_When pigs fly.png" /></td>
+        <td><img src="png/planning poker_Here be dragons.png" /></td>
+      </tr>
+			<tr>
+        <td><img src="png/planning poker_Eat a brownie.png" /></td>
+        <td><img src="png/planning poker_Coffee break.png" /></td>
+        <td><img src="png/planning poker_Yak Shaving.png" /></td>
+      </tr>
+		</table>
+	</div>
+	<div class="flip"> 
+		<div class="front"> 
+      <img src="png/Cover - option 2.png" alt="" />
+		</div> 
+		<div class="back">
+      <img src="png/Cover - option 2.png" alt="" />
+		</div> 
+	</div>
+</div>
+</body>
+
+</html>
