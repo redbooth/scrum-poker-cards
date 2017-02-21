@@ -59,9 +59,9 @@ img {
 
     <script type="text/javascript">
 $(function(){
-	$(".flip").flip({
-		trigger: 'click'
-	});
+  $(".flip").flip({
+    trigger: 'click'
+  });
 
   $(".flip").on("flip:done", function() {
     if (! $(".flip").data("flip-model").isFlipped) {
@@ -69,9 +69,9 @@ $(function(){
     }
   });
 
-	$("#list img").click(function(e) {
+  $("#list img").click(function(e) {
     $('.flip .back img').attr("src", e.currentTarget.src);
-		$('#list').hide();
+    $('#list').hide();
   });
 });
     </script>
