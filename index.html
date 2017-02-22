@@ -19,7 +19,7 @@ img {
   box-shadow: 2vh 2vh 3vh darkgray;
 }
 
-.flip img {
+#card img {
   height: 100%;
   margin: 0 auto;
   border-radius: 4vh;
@@ -53,18 +53,18 @@ img {
 
     <script type="text/javascript">
 $(function(){
-  $(".flip").flip({
+  $('#card').flip({
     trigger: 'click'
   });
 
-  $(".flip").on("flip:done", function() {
-    if (! $(".flip").data("flip-model").isFlipped) {
+  $('#card').on('flip:done', function() {
+    if (! $('#card').data('flip-model').isFlipped) {
       $('#list').show();
     }
   });
 
-  $("#list img").click(function(e) {
-    $('.flip .back img').attr("src", e.currentTarget.src);
+  $('#list img').click(function(e) {
+    $('#card .back img').attr("src", e.currentTarget.src);
     $('#list').hide();
   });
 });
@@ -105,7 +105,7 @@ $(function(){
       <small>Card design by <a href="https://github.com/redbooth/Scrum-poker-cards">Redbooth</a>, CC-BY 3.0.</small>
     </div>
   </div>
-  <div class="flip"> 
+  <div id="card"> 
     <div class="front"> 
       <img src="png/Cover - option 2.png" alt="" />
     </div> 
