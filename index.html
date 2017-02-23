@@ -20,6 +20,10 @@ img {
   cursor: pointer;
 }
 
+#card {
+  display: none;
+}
+
 #card img {
   max-height: 90vh;
   max-width: 90vw;
@@ -28,8 +32,6 @@ img {
 
 #list {
   width: 90vw;
-  z-index: 99;
-  background: url('background.jpg');
   position: absolute;
 }
 
@@ -58,6 +60,7 @@ $(function(){
 
   $('#card').on('flip:done', function() {
     if (! $('#card').data('flip-model').isFlipped) {
+      $('#card').hide();
       $('#list').show();
     }
   });
@@ -65,6 +68,7 @@ $(function(){
   $('#list img').click(function(e) {
     $('#card .back img').attr("src", e.currentTarget.src);
     $('#list').hide();
+    $('#card').show();
   });
 });
     </script>
