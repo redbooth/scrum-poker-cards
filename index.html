@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+  <head>
+    <title>Scrum Poker Deck</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js" type="text/javascript"></script>
+
+    <style type="text/css">
+body {
+  background: url('background.jpg');
+  text-align: center;
+}
+
+img {
+  box-shadow: 2vh 2vh 3vh darkgray;
+  cursor: pointer;
+}
+
+#card {
+  display: none;
+}
+
+#card img {
+  max-height: 90vh;
+  max-width: 90vw;
+  border-radius: 4vh;
+}
+
+#list {
+  width: 90vw;
+  position: absolute;
+}
+
+#list td {
+  padding-bottom: 2vh;
+}
+
+#list img {
+  width: 30vw;
+  border-radius: 2vw;
+}
+
+#attribution {
+  border-top: 1px solid darkgray;
+  margin: 3vh 0 1vh 0;
+  padding-top: 1vh;
+  color: darkgray;
+}
+    </style>
+
+    <script type="text/javascript">
+$(function(){
+  $('#card').flip({
+    trigger: 'click'
+  });
+
+  $('#card').on('flip:done', function() {
+    if (! $('#card').data('flip-model').isFlipped) {
+      $('#card').hide();
+      $('#list').show();
+    }
+  });
+
+  $('#list img').click(function(e) {
+    $('#card .back img').attr("src", e.currentTarget.src);
+    $('#list').hide();
+    $('#card').show();
+  });
+});
+    </script>
+</head>
+
+<body>
+  <div id="list">
+    <table>
+      <tr>
+        <td><img src="png/Cover - option 2.png" alt="0" /></td>
+        <td><img src="png/planning poker_Low hanging fruit.png" alt="1" /></td>
+        <td><img src="png/planning poker_Piece of cake.png" alt="2" /></td>
+      </tr>
+      <tr>
+        <td><img src="png/planning poker_It ain't rocket science.png" alt="3" /></td>
+        <td><img src="png/planning poker-03.png" alt="5" /></td>
+        <td><img src="png/planning poker_An arm and a leg.png" alt="8" /></td>
+      </tr>
+      <tr>
+        <td><img src="png/planning poker_Squeaking by.png" alt="13" /></td>
+        <td><img src="png/planning poker_Don't put all .png" alt="20" /></td>
+        <td><img src="png/planning poker_Meterse en un berenjenal.png" alt="40" /></td>
+      </tr>
+      <tr>
+        <td><img src="png/planning poker_Monster task.png" alt="100" /></td>
+        <td><img src="png/planning poker_When pigs fly.png" alt="infinity" /></td>
+        <td><img src="png/planning poker_Here be dragons.png" alt="?" /></td>
+      </tr>
+      <tr>
+        <td><img src="png/planning poker_Eat a brownie.png" alt="brownie" /></td>
+        <td><img src="png/planning poker_Coffee break.png" alt="coffee break" /></td>
+        <td><img src="png/planning poker_Yak Shaving.png" alt="yak shaving" /></td>
+      </tr>
+    </table>
+
+    <div id="attribution">
+      <small>Card design by <a href="https://github.com/redbooth/Scrum-poker-cards">Redbooth</a>, CC-BY 3.0.</small>
+    </div>
+  </div>
+  <div id="card"> 
+    <div class="front"> 
+      <img src="png/Cover - option 2.png" alt="" />
+    </div> 
+    <div class="back">
+      <img src="png/Cover - option 2.png" alt="" />
+    </div> 
+  </div>
+</body>
+
+</html>
