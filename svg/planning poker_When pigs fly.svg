@@ -6,7 +6,7 @@
 <rect x="-6.3" y="-5.6" fill="#78CBE7" width="178.6" height="260.8"/>
 <circle fill="#BA3033" cx="23.8" cy="39.2" r="2.6"/>
 <g>
-	<text transform="matrix(1 0 0 1 15.3207 28.6079)" font-family="'AvenirNext-Regular'" font-size="23">∞</text>
+	<text transform="matrix(1 0 0 1 15.3207 28.6079)" font-family="'RobotoSlab-Regular'" font-size="23">∞</text>
 </g>
 <circle fill="#BA3033" cx="143.4" cy="210.3" r="2.6"/>
 <g>
@@ -32,7 +32,7 @@
 		</g>
 		<path fill="#FBDAE6" d="M110,43.5l1.4-2.3c2.2-3.6,7-4.7,10.5-2.5l13.6,8.4c3.6,2.2,4.7,7,2.5,10.5l-1.4,2.3
 			c-2.2,3.6-7,4.7-10.5,2.5L112.5,54C108.9,51.8,107.8,47.1,110,43.5z"/>
-		
+
 			<rect x="119.5" y="57.7" transform="matrix(0.8514 0.5244 -0.5244 0.8514 50.3122 -57.5305)" fill="#FBDAE6" width="14.4" height="4.6"/>
 	</g>
 	<path fill="#E6E7E8" d="M133.3,39c-3.5-1.7-7.7-0.2-9.4,3.3c-1.7,3.5-0.2,7.7,3.3,9.4c7.9,3.8,22.3-4.9,22.3-4.9
@@ -48,7 +48,7 @@
 	<path fill="#FBDAE6" d="M121.1,30.2c-2-1.3-3.6-2-6.5-1.4c-2.9,0.7-3.2,1.7-6.2,0.2c-0.5-0.3-1.6,0.5-2.5,1.8
 		c-0.9,1.3-1.2,2.7-0.7,3c0,0,2.1,1.4,2.5,5.5c0.2,1.8,1.4,4.4,3.4,5.8c4.1,2.7,9.7,1.6,12.4-2.5S125.2,33,121.1,30.2z"/>
 	<ellipse transform="matrix(0.832 0.5547 -0.5547 0.832 34.9625 -54.029)" fill="#F5A5C4" cx="106.7" cy="30.7" rx="0.1" ry="0.5"/>
-	
+
 		<ellipse transform="matrix(0.832 0.5547 -0.5547 0.832 35.4591 -53.9431)" fill="#F5A5C4" cx="106.8" cy="31.6" rx="0.1" ry="0.5"/>
 	<g>
 		<circle fill="#FFFFFF" cx="117.6" cy="36.4" r="1.6"/>
@@ -69,7 +69,7 @@
 	<circle fill="#F1F2F2" cx="51.5" cy="86.2" r="12"/>
 	<circle fill="#F1F2F2" cx="57.3" cy="74.3" r="5.2"/>
 </g>
-<text transform="matrix(1 0 0 1 27.863 153.6833)" font-family="'AvenirNext-UltraLight'" font-size="160">∞</text>
+<text transform="matrix(1 0 0 1 27.863 153.6833)" font-family="'RobotoSlab-Thin'" font-size="100">∞</text>
 <g>
 	<circle fill="#F1F2F2" cx="140.1" cy="139.8" r="12.8"/>
 	<circle fill="#F1F2F2" cx="130.7" cy="129" r="6.7"/>
@@ -85,7 +85,7 @@
 	<circle fill="#F1F2F2" cx="141.1" cy="240.2" r="14.3"/>
 </g>
 <g>
-	<text transform="matrix(-1 0 0 -1 151.9254 220.8387)" font-family="'AvenirNext-Regular'" font-size="23">∞</text>
+	<text transform="matrix(-1 0 0 -1 151.9254 220.8387)" font-family="'RobotoSlab-Regular'" font-size="23">∞</text>
 </g>
 <g>
 	<path fill="#F1F2F2" d="M60.3,166.1c4.5,1.7,6.8,6.8,5.1,11.3c-1.7,4.5-6.8,6.8-11.3,5.1c-10.2-3.9-14.8-24.3-14.8-24.3
@@ -122,9 +122,9 @@
 		"/>
 	<path fill="#FBDAE6" d="M67.6,161.8c3.3-2.2,6.1-3.4,10.8-2.3c4.8,1.1,5.3,2.8,10.3,0.3c0.8-0.5,2.6,0.8,4.1,3c1.5,2.2,2,4.4,1.2,5
 		c0,0-3.5,2.3-4.2,9.1c-0.3,2.9-2.4,7.4-5.7,9.6c-6.8,4.6-16.1,2.7-20.6-4.1C59,175.6,60.8,166.4,67.6,161.8z"/>
-	
+
 		<ellipse transform="matrix(-0.832 0.5547 -0.5547 -0.832 258.0256 247.1088)" fill="#F5A5C4" cx="91.6" cy="162.6" rx="0.2" ry="0.8"/>
-	
+
 		<ellipse transform="matrix(-0.832 0.5547 -0.5547 -0.832 258.4982 249.841)" fill="#F5A5C4" cx="91.4" cy="164.1" rx="0.2" ry="0.8"/>
 	<g>
 		<circle fill="#FFFFFF" cx="73.4" cy="172.1" r="2.6"/>
