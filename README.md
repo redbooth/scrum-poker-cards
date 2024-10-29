@@ -35,9 +35,15 @@ Here is what each card means:
 
 ![](https://raw.githubusercontent.com/redbooth/Scrum-poker-cards/master/Images/redbooth%20cards%20-%20ping%20pong.jpg)
 
-More about: [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29) and [Redbooth](https://redbooth.com/). 
+More about: [Scrum](http://en.wikipedia.org/wiki/Scrum_%28software_development%29) and [Redbooth](https://redbooth.com/).
 
-Font used in the cards - [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab). We ordered our decks at [moo.com](http://uk.moo.com/).
+Font used in the cards is [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab) which is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). A copy of the Apache License 2.0 is included in this repository in the `LICENSE-APACHE` file.
 
-License: [Creative Commons – Attribution (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/). 
+We ordered our decks at [moo.com](http://uk.moo.com/).
+
+## Licensing
+
+- **Creative Commons Attribution 3.0 License**: The original content of this repository is licensed under the [Creative Commons – Attribution (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/us/).
+- **Apache License 2.0**: The [Roboto Slab](http://www.google.com/fonts/specimen/Roboto+Slab) font used in the files is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). See `LICENSE-APACHE` for details.
+
 Enjoy these! Don't forget to attribute and let us know if you add any cards of your own. We’d love to see what your special cards are.
